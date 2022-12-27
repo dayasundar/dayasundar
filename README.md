@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Aravindh
 - 👀 I’m interested in Machine Learning / Data science 
-- 🌱 I’m currently learning Data science 
+- 🌱 I’m currently working as Data Scientist in Credit Risk Modelling area 
 - 📫 dayasundar@gmail.com
 
 <!---
