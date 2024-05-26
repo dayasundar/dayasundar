@@ -1,0 +1,110 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dayasundar/dayasundar/blob/Gen-AI-learning/Python%20Practise\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Gen AI"
+      ],
+      "metadata": {
+        "id": "zwXs3EsSQhEp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Python practise on live session 26 May\n"
+      ],
+      "metadata": {
+        "id": "BQ1T9c0hSpES"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Fibinoci"
+      ],
+      "metadata": {
+        "id": "VtK60BHDRhWy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "series = []\n",
+        "\n",
+        "fib_first = 0\n",
+        "fib_second = 1\n",
+        "n = 5\n",
+        "\n",
+        "if n<=0:\n",
+        "print(\"Provide postive value\")\n",
+        "elif n == 1:\n",
+        "  return 0\n",
+        "else:\n",
+        "  return 1\n",
+        "else :\n",
+        "  for i in range(3, n+1):\n",
+        "    fib_series = fib_first + fib_second\n",
+        "    fib_second = fib_first\n",
+        "    fib_first = fib_series\n",
+        "  return fib_series"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "D5kJdp4oSze9",
+        "outputId": "306928f7-197d-459b-a025-69c00bb75807"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "'return' outside function (<ipython-input-10-c06f61087363>, line 10)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-10-c06f61087363>\"\u001b[0;36m, line \u001b[0;32m10\u001b[0m\n\u001b[0;31m    return 0\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m 'return' outside function\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ni6BU6rFS_pG"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome to Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
